@@ -2,7 +2,7 @@ import { ArrowUpRight, Rocket } from "lucide-react";
 
 export default function HeroBanner() {
   return (
-    <section className="relative h-[100vh]  bg-[#0A0A0A] pt-44">
+    <section className="relative h-[100dvh]  bg-[#0A0A0A] md:pt-44 md:pb-0 pb-20 ">
 
       {/* Grid */}
 
@@ -83,7 +83,7 @@ With<em className="pl-4 md:-tracking-[6px] -tracking-[3px]">Nuvolve.</em>
     type="video/mp4"
   />
 </video>
-      <div className="absolute inset-0 bg-black/80" />
+      <div className="absolute inset-0 bg-black/70" />
 
     </section>
   );
