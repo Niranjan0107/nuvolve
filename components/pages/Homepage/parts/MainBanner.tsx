@@ -2,7 +2,7 @@ import { ArrowUpRight, Rocket } from "lucide-react";
 
 export default function HeroBanner() {
   return (
-    <section className="relative h-[100dvh]  bg-[#0A0A0A] md:pt-44 md:pb-0 pb-20 ">
+    <section className="relative h-[100dvh]  bg-[#0A0A0A] md:pt-44 md:pb-0 pb-20 md:block flex items-end">
 
       {/* Grid */}
 
