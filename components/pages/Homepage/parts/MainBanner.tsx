@@ -2,20 +2,11 @@ import { ArrowUpRight, Rocket } from "lucide-react";
 
 export default function HeroBanner() {
   return (
-    <section className="relative h-[100dvh]  bg-[#0A0A0A] md:pt-44 md:pb-0 pb-20 md:block flex items-end">
+    <section className="relative h-[100vh]  bg-[#0A0A0A] pt-44">
 
       {/* Grid */}
 
-      <div
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: `
-          linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px)
-        `,
-          backgroundSize: "40px 40px",
-        }}
-      />
+    
 
       {/* Orange Glow */}
 
@@ -83,8 +74,7 @@ With<em className="pl-4 md:-tracking-[6px] -tracking-[3px]">Nuvolve.</em>
     type="video/mp4"
   />
 </video>
-      <div className="absolute inset-0 bg-black/70" />
-
+<div className="absolute inset-0 bg-gradient-to-t from-black from-10% via-black/50 via-50% to-transparent to-100%" /> 
     </section>
   );
 }
